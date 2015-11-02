@@ -1,0 +1,8 @@
+extends layout
+
+block content
+	form(role="form", action="/user/subscribe", method="post")
+		div(class="row")
+			input(type="text", name="url", class="form-control", placeholder="Example: www.theverge.com", required, autofocus)
+		button(class="btn waves-effect waves-light", type="submit") Submit
+	p= urls
