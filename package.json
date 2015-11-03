@@ -3,9 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "dependencies": {
-    "body-parser": "^1.14.1",
-    "express": "^2.5.11",
-    "jade": ">= 0.0.1",
+    "express": "^4.13.3",
+    "mongoose": "^4.2.3",
     "request": "^2.65.0"
   }
 }

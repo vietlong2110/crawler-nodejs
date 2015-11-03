@@ -1,8 +1,8 @@
 extends layout
 
 block content
-	form(role="form", action="/user/subscribe", method="post")
+	form(role="form", action="/crawl", method="get")
 		div(class="row")
-			input(type="text", name="url", class="form-control", placeholder="Example: www.theverge.com", required, autofocus)
+			input(type="text", name="url", class="form-control", required, autofocus)
 		button(class="btn waves-effect waves-light", type="submit") Submit
-	p= urls
+	p= result
